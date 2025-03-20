@@ -5,7 +5,7 @@ const button = document.getElementById("myButton");
 const fonts = ["Arial", "Verdana", "Helvetica", "Tahoma", "Trebuchet MS", "Times New Roman", "Georgia", "Garamond", "Courier New", "Brush Script MT"];
 
 // Create audio element and set initial volume to 0.1
-const audio = new Audio('/assets/music.mp3');
+const audio = new Audio('./assets/music.mp3');
 audio.volume = 0.1;
 
 button.onclick = function() {
